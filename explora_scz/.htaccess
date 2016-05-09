@@ -1,0 +1,12 @@
+# disable the navigation through directories
+Options All -Indexes
+
+# enable mod_rewrite module
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward use it to index.php
+RewriteRule . index.php
