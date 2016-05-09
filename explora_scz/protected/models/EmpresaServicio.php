@@ -72,7 +72,11 @@ class EmpresaServicio extends CActiveRecord
 			'direccion' => 'Direccion',
 			'ubicacion' => 'Ubicacion',
 			'email' => 'Email',
+<<<<<<< HEAD
 			'id_rubro_fk' => 'Rubro',
+=======
+			'id_rubro_fk' => 'Id Rubro Fk',
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 		);
 	}
 

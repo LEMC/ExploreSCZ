@@ -74,8 +74,13 @@ class LugarTuristico extends CActiveRecord
 			'direccion' => 'Direccion',
 			'ubicacion' => 'Ubicacion',
 			'valoracion' => 'Valoracion',
+<<<<<<< HEAD
 			'id_descripcion_partida' => 'Descripcion Partida',
 			'id_tipo_categoria_fk' => 'Tipo Categoria',
+=======
+			'id_descripcion_partida' => 'Id Descripcion Partida',
+			'id_tipo_categoria_fk' => 'Id Tipo Categoria Fk',
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 		);
 	}
 

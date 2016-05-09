@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_lista_im_muebles" value="name:idoferta;datatype:int,name:precio;datatype:real,name:precio_oferta;datatype:real,name:mejor_puja;datatype:real,name:idInmueble;datatype:int,name:descripcionIm;datatype:string,name:direccion;datatype:string,name:imagen;datatype:string,name:caracteristica_const;datatype:string,name:id_categoria;datatype:int,name:fecha_publicacion;datatype:date,name:fecha_limite;datatype:date,name:estado;datatype:string,name:tipo_moneda;datatype:string" />
+	<infoitem key="UD_prueba_img" value="name:idoferta;datatype:int,name:precio;datatype:real,name:precio_oferta;datatype:real,name:mejor_puja;datatype:real,name:idInmueble;datatype:int,name:descripcionIm;datatype:string,name:direccion;datatype:string,name:imagen;datatype:string,name:caracteristica_const;datatype:string,name:id_categoria;datatype:int,name:fecha_publicacion;datatype:date,name:fecha_limite;datatype:date,name:estado;datatype:string,name:tipo_moneda;datatype:string" />
+</info>

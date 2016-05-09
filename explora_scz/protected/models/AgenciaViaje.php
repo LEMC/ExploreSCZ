@@ -63,7 +63,11 @@ class AgenciaViaje extends CActiveRecord
 			'direccion' => 'Direccion',
 			'ubicacion' => 'Ubicacion',
 			'valoracion' => 'Valoracion',
+<<<<<<< HEAD
 			'id_eventos_fk' => 'Evento',
+=======
+			'id_eventos_fk' => 'Id Eventos Fk',
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 		);
 	}
 

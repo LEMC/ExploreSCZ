@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_list_bancos" value="name:nombre;datatype:string,name:direccion;datatype:string,name:ubicacion;datatype:string" />
+	<infoitem key="UD_list_cajeros" value="name:nombre;datatype:string,name:direccion;datatype:string,name:ubicacion;datatype:string" />
+	<infoitem key="UD_list_hospital" value="name:nombre;datatype:string,name:direccion;datatype:string,name:ubicacion;datatype:string" />
+</info>

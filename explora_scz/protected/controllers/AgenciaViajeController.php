@@ -32,11 +32,19 @@ class AgenciaViajeController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+<<<<<<< HEAD
 				'actions'=>array('create','update','guardarevento'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete','guardarevento'),
+=======
+				'actions'=>array('create','update'),
+				'users'=>array('@'),
+			),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('admin','delete'),
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -49,6 +57,7 @@ class AgenciaViajeController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
+<<<<<<< HEAD
         public function actionguardarevento() {
         $nombre = $_POST['nombre'];
         $descripcion = $_POST['descripcion'];
@@ -69,6 +78,8 @@ class AgenciaViajeController extends Controller
         }
         echo "paso x aca";
     }   
+=======
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 	public function actionView($id)
 	{
 		$this->render('view',array(

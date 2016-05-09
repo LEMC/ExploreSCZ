@@ -1053,6 +1053,7 @@ Stack trace:
 REQUEST_URI=/explora_scz/index.php?r=categoria/view&id=1
 HTTP_REFERER=http://localhost:90/explora_scz/index.php?r=categoria/create
 ---
+<<<<<<< HEAD
 2016/05/07 16:18:23 [error] [php] include(BsHtml.php): failed to open stream: No such file or directory (C:\yiisoft-yii-17e0a77\framework\YiiBase.php:432)
 Stack trace:
 #0 C:\xampp\htdocs\explora_scz\themes\kongoon\views\layouts\main.php(35): spl_autoload_call()
@@ -5632,3 +5633,5 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/explora_scz/themes/admin/assets/js/jquery.min.map
 ---
+=======
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883

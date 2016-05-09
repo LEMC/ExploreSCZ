@@ -68,7 +68,11 @@ class Eventos extends CActiveRecord
 			'precio' => 'Precio',
 			'fecha_inicio' => 'Fecha Inicio',
 			'fecha_fin' => 'Fecha Fin',
+<<<<<<< HEAD
 			'id_descripcion_fk' => 'Descripcion',
+=======
+			'id_descripcion_fk' => 'Id Descripcion Fk',
+>>>>>>> 1e9226f23cb3a091efe2009a2317d5359519a883
 		);
 	}
 
